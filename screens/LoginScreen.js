@@ -9,7 +9,7 @@ import {
 import React, { useEffect, useState } from "react";
 import { Button, Input } from "@rneui/base";
 import { StatusBar } from "expo-status-bar";
-import { auth } from "../firebase";
+import { auth } from "../firebase"
 import { signInWithEmailAndPassword } from "firebase/auth";
 
 
@@ -43,14 +43,13 @@ const LoginScreen = ({ navigation }) => {
       <KeyboardAvoidingView style={styles.container} behavior="padding">
         <StatusBar style="light" />
         <Image
-          source={{
-            uri: "https://logowik.com/content/uploads/images/signal-messenger-icon9117.jpg",
-          }}
+          source={require('../assets/signal.png')}
           style={{
-            width: 200,
-            height: 200,
+            width: 100,
+            height: 100,
             backgroundColor: "white",
             resizeMode: "contain",
+            
           }}
         />
         <View style={styles.inputContainer}>

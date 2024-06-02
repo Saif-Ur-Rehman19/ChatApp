@@ -75,7 +75,7 @@ const RegisterScreen = ({ navigation }) => {
     >
       <StatusBar style="light" />
       <Text h4 style={{ marginBottom: 50 }}>
-        Create a Signal account
+        Create an account to continue
       </Text>
       <View style={styles.inputContainer}>
         <Input
